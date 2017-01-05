@@ -2,6 +2,10 @@
 Shell code generator.
 """
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 import codecs
 from collections import defaultdict
 import gzip as gziplib
